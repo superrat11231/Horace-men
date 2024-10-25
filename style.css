@@ -10,6 +10,14 @@ h1 {
   font-family: sans-serif;
 }
 
+h1:a {
+  text-decoration: none;
+}
+
+h2:a {
+  text-decoration: none;
+}
+
 h2 {
   color: rgb(220,220,220);
   font-size: 20px;
