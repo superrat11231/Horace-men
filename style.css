@@ -186,7 +186,7 @@ footer {
 .category {
   display: flex;
   gap: 20px;
-  right: 540px;
+  left: 540px;
 }
 
 .main-title {
