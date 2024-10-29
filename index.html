@@ -34,6 +34,8 @@
         document.addEventListener('keydown', function(event) {
            if (event.key === 'q' || event.key === 'Q') {
               quick_switch();
+           } else if(event.key === 'h' || event.key === 'H') {
+              alert('Ah jez Rick, I-I dont know what that means...')
            }
         });
 
@@ -45,8 +47,6 @@
             updateTime();
             detectBrowser();
         };
-
-        alert('[!] Help: JavaScript not updated')
     </script>
     <script src="script.js"></script>
   </head>
