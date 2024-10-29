@@ -186,7 +186,7 @@ footer {
 .category {
   display: fixed;
   gap: 20px;
-  left: 50px;
+  right: 50px;
 }
 
 .main-title {
