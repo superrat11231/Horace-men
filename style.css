@@ -8,6 +8,7 @@ h1 {
   color: rgb(220,220,220);
   font-size: 26px;
   font-family: sans-serif;
+  margin-top: 16px;
 }
 
 h1:a {
