@@ -8,7 +8,7 @@ Another unblocked games website. Though this one looks like it was copied straig
 * (soon to be public) Search tab 🔎
 * Fulscreen for games by pressing the fullscreen button or by pressing 'f' ⇱
 * Favicon and title desgised as an animal facts website 🤫
-* Includes banger games like **Super Mario 64**, **Super Hot**, **Drift Hunters**, **Half Life**, and **Eaglercraft** 🤘
+* Includes banger games like **Super Mario 64**, **Super Hot**, **Drift Hunters**, **Happy Wheels**, **Hole.io**, **Half Life**, and **Eaglercraft** 🤘
 * Ad free games for ever (I know, i'm so nice.) 🚫
 * Quick Switch for redirecting to Google Drive manually by pressing 'q' on the home page ⚡
 
@@ -21,8 +21,6 @@ I would be very greatful if someone took the time to help me with this project. 
 ## How to contact me:
 Email: shrashep@outlook.com
 
-## current version: 1.3.4
+## current version: 1.3.5
 **Added:**
-This version has less bugs, all game pages are desgised as horse facts at Britannica, and better games are at the top.   
-**Current Issues:**
-Doom is still broken, Half Life: Uplink is the only version that works, mediocre design, and too many things that I've coded, but can't be found on the website without digging for it.
+This version has easter eggs hidden in the code, Happy Wheels and Hole.io added, and a little bit of debugging.
