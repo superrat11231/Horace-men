@@ -176,7 +176,7 @@ footer {
 .search-btn {
   position: absolute;
   display: flex;
-  right: 1200px;
+  left: 1200px;
 }
 
 .logo {
