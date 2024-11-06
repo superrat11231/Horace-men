@@ -43,6 +43,8 @@ body {
 .item img {
   max-width: 135px;
   min-width: 135px;
+  max-height: 135px;
+  min-height: 135px;
   border-radius: 6px;
 }
 
