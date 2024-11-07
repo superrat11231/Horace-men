@@ -195,11 +195,11 @@ footer {
 }
 
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: none;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
+  font-family: sans-serif;
 }
 
 .dropdown {
