@@ -228,7 +228,7 @@ footer {
 .dropdown:hover .dropdown-content {display: block;}
 
 .movieshows-btn {
-  margin-left: 450px;
+  left: 650px;
 }
 
 button {
