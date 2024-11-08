@@ -211,7 +211,7 @@ footer {
 }
 
 .dropdown-content {
-  /*display: none;*/
+  display: none;
   position: absolute;
   background-color: rgb(27, 4, 42);
   min-width: 160px;
