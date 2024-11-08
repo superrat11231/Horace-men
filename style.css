@@ -228,7 +228,7 @@ footer {
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-/*.dropdown:hover .dropdown-content {display: block;}*/
+.dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {
   background-color: transparent;
