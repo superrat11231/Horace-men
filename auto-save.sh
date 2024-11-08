@@ -10,9 +10,9 @@ save-init () {
     git pull origin main
 
     clear
-    sleep 0.5
+    sleep 1
     echo "You can turn off auto save by using ctrl+c."
-    sleep 1.5
+    sleep 2
 
     save-init
 }
