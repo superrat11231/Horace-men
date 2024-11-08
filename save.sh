@@ -1,38 +1,38 @@
 #!/bin/bash
 
 echo "Saving..."
-sleep 2
+sleep 1
 
 git add .
 git commit -m "Quick-Update (from Replit)"
 git push origin main
 git pull origin main
 
-sleep 1
 clear
 
 echo "              -"
-sleep 0.5
+sleep 0.3
 clear
 
 echo "              --"
-sleep 0.5
+sleep 0.3
 clear
 
 echo "              ---"
-sleep 0.5
+sleep 0.3
 clear
 
 echo "              -"
-sleep 0.5
+sleep 0.3
 clear
 
 echo "              --"
-sleep 0.5
+sleep 0.3
 clear
 
 echo "              ---"
-sleep 1
+sleep 0.8
+clear
 
 echo "Done!"
 sleep 2
