@@ -1,7 +1,7 @@
 #!/bin/bash
 
 save-init () {
-    seconds=$((result - 1))
+    seconds=$((result + 3))
 
     sleep $seconds
     git add .
