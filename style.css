@@ -196,8 +196,13 @@ footer {
 
 .dropbtn {
   font-size: 20px;
-  border: none;
   font-family: sans-serif;
+  color: rgb(220, 220, 220);
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -223,7 +228,11 @@ footer {
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+/*.dropdown:hover .dropdown-content {display: block;}*/
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
 
 .movieshows-btn {
   left: 1250px;
