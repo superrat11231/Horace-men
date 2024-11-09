@@ -51,8 +51,8 @@ img:hover{
 }
 
 img:active {
-  transition: 0.3s;
-  filter: brightness(5%);
+  transition: 0.1s;
+  filter: brightness(75%);
 }
 
 hr {
