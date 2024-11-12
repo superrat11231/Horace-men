@@ -1,6 +1,6 @@
 #!/bin/bash
 
-points
+points=0
 
 runAgainEz() {
     echo "Chose a number between 1 and 10."
