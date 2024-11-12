@@ -30,6 +30,7 @@ elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
         runAgainHard
     else
         echo "That's wrong."
+        runAgainHard
 
 else
     echo "[Err]: Invalid input."
