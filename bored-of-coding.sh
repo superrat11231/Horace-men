@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+
+
 echo "Chose a difficulty. (EZ/HARD)"
 read diff
 
@@ -31,6 +34,7 @@ elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
     else
         echo "That's wrong."
         runAgainHard
+    fi
 
 else
     echo "[Err]: Invalid input."
