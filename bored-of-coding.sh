@@ -17,7 +17,18 @@ runAgainEz() {
 }
 
 runAgainHard() {
-    
+    echo "Chose a number between 1 and 20."
+
+    # same thing as 'ez', just with the number being 1 - 20.
+
+    if [ $number = $randomNum ]; then
+        echo "Correct! +2 points."
+        # add 2 points to the variable name 'points'
+        runAgainHard
+    else
+        echo "That's wrong."
+        runAgainHard
+    fi
 }
 
 
