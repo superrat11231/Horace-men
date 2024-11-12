@@ -19,7 +19,7 @@ if [ $diff = "ez" ] || [ $diff = "EZ" ]; then
     fi
 
 elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
-    # diff hard
+    
 else
     echo "[Err]: Invalid input."
     exit
