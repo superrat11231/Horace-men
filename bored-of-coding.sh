@@ -24,6 +24,8 @@ elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
 
     # same thing as 'ez', just with the number being 1 - 20.
 
+    if []
+
 else
     echo "[Err]: Invalid input."
     exit
