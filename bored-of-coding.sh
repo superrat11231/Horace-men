@@ -1,6 +1,8 @@
 #!/bin/bash
 
-
+runAgainEz() {
+    
+}
 
 
 echo "Chose a difficulty. (EZ/HARD)"
