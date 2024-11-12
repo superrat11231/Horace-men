@@ -6,11 +6,12 @@ runAgainEz() {
     echo "Chose a number between 1 and 10."
     read number
 
-    # generate random number between 1 and 10 and classify the variable 'randomNum' to equal the random number
-    
-    if [ $number = $randomNum ]; then
+    # Generate random number between 1 and 10
+    randomNum=$((RANDOM % 10 + 1))
+
+    if [ $number -eq $randomNum ]; then
         echo "Correct! +1 point."
-        # add 1 to a variable named 'points'
+        points=$((points + 1))  # Add 1 point
         runAgainEz
     else 
         echo "That's wrong."
@@ -20,12 +21,14 @@ runAgainEz() {
 
 runAgainHard() {
     echo "Chose a number between 1 and 20."
+    read number
 
-    # same thing as 'ez', just with the number being 1 - 20.
+    # Generate random number between 1 and 20
+    randomNum=$((RANDOM % 20 + 1))
 
-    if [ $number = $randomNum ]; then
+    if [ $number -eq $randomNum ]; then
         echo "Correct! +2 points."
-        # add 2 points to the variable name 'points'
+        points=$((points + 2))  # Add 2 points
         runAgainHard
     else
         echo "That's wrong."
@@ -33,41 +36,14 @@ runAgainHard() {
     fi
 }
 
-
-echo "Chose a difficulty. (EZ/HARD)"
+echo "Choose a difficulty. (EZ/HARD)"
 read diff
 
-if [ $diff = "ez" ] || [ $diff = "EZ" ]; then
-    echo "Chose a number between 1 and 10."
-    read number
-
-    # generate random number between 1 and 10 and classify the variable 'randomNum' to equal the random number
-    
-    if [ $number = $randomNum ]; then
-        echo "Correct! +1 point."
-        # add 1 to a variable named 'points'
-        runAgainEz
-    else 
-        echo "That's wrong."
-        runAgainEz
-    fi
-
-elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
-    
-    echo "Chose a number between 1 and 20."
-
-    # same thing as 'ez', just with the number being 1 - 20.
-
-    if [ $number = $randomNum ]; then
-        echo "Correct! +2 points."
-        # add 2 points to the variable name 'points'
-        runAgainHard
-    else
-        echo "That's wrong."
-        runAgainHard
-    fi
-
+if [ "$diff" = "ez" ] || [ "$diff" = "EZ" ]; then
+    runAgainEz  # Start the easy difficulty game
+elif [ "$diff" = "hard" ] || [ "$diff" = "HARD" ]; then
+    runAgainHard  # Start the hard difficulty game
 else
     echo "[Err]: Invalid input."
-    exit
+    exit 1
 fi
