@@ -28,6 +28,8 @@ elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
         echo "Correct! +2 points."
         # add 2 points to the variable name 'points'
         runAgainHard
+    else
+        
 
 else
     echo "[Err]: Invalid input."
