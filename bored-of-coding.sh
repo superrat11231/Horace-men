@@ -27,7 +27,7 @@ elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
     if [ $number = $randomNum ]; then
         echo "Correct! +2 points."
         # add 2 points to the variable name 'points'
-        runAgainHrd
+        runAgainHard
 
 else
     echo "[Err]: Invalid input."
