@@ -20,7 +20,7 @@ if [ $diff = "ez" ] || [ $diff = "EZ" ]; then
 
 elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
     
-    echo "C"
+    echo "Chose a number between 1 and 20."
 
 else
     echo "[Err]: Invalid input."
