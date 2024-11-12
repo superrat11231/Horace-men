@@ -1,5 +1,7 @@
 #!/bin/bash
 
+points
+
 runAgainEz() {
     echo "Chose a number between 1 and 10."
     read number
