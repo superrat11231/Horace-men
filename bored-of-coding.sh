@@ -7,7 +7,17 @@ if [ $diff = "ez" ] || [ $diff = "EZ" ]; then
     echo "Chose a number between 1 and 10."
     read number
 
+    # generate random number between 1 and 10 and classify the variable 'randomNum' to equal the random number
     
+    if [ $number = $randomNum ]; then
+        echo "Correct! +1 point."
+        # add 1 to a variable named 'points'
+        runAgainEz
+    else 
+        echo "That's wrong."
+        runAgainEz
+    fi
+
 elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
     # diff hard
 else
