@@ -16,7 +16,9 @@ runAgainEz() {
     fi
 }
 
-runAgainHard
+runAgainHard() {
+    
+}
 
 
 echo "Chose a difficulty. (EZ/HARD)"
