@@ -20,6 +20,8 @@ if [ $diff = "ez" ] || [ $diff = "EZ" ]; then
 
 elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
     
+    echo "C"
+
 else
     echo "[Err]: Invalid input."
     exit
