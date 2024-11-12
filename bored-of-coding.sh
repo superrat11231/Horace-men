@@ -29,7 +29,7 @@ elif [ $diff = "hard" ] || [ $diff = "HARD" ]; then
         # add 2 points to the variable name 'points'
         runAgainHard
     else
-        
+        echo "That's wrong."
 
 else
     echo "[Err]: Invalid input."
