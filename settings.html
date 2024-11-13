@@ -40,6 +40,7 @@
         <button id="lookCanvas">Canvas</button>
         <button id="lookDefault">Default</button>
         <button id="lookClassroom">Google Classroom</button>
+        <button id="lookDocs">Google Docs</button>
         <script>
           document.getElementById('lookClever').addEventListener('click', function() {
             // Change the document title
@@ -86,6 +87,18 @@
             link.type = 'image/x-icon';
             link.rel = 'icon';
             link.href = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/2372px-Google_Classroom_Logo.svg.png';
+            document.getElementsByTagName('head')[0].appendChild(link);
+          });
+
+          document.getElementById('lookDocs').addEventListener('click', function() {
+            // Change the document title
+            document.title = "Horse Essay - Google Docs";
+      
+            // Change the favicon
+            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'icon';
+            link.href = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUE7BRm2ME_-ppQcgRXQ2EqFh7S9sozIw5g&s';
             document.getElementsByTagName('head')[0].appendChild(link);
           });
         </script>
