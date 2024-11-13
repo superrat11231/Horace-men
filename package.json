@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["games", "unblockedgames", "unblocked"],
   "author": "ShragSir",
   "license": "none"
 }
