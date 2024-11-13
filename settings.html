@@ -38,6 +38,7 @@
     <div>
         <button id="lookClever">Clever</button>
         <button id="lookCanvas">Canvas</button>
+        <button id="lookDefault">Default</button>
         <script>
           document.getElementById('lookClever').addEventListener('click', function() {
             // Change the document title
@@ -60,6 +61,18 @@
             link.type = 'image/x-icon';
             link.rel = 'icon';
             link.href = 'https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico';
+            document.getElementsByTagName('head')[0].appendChild(link);
+          });
+
+          document.getElementById('lookDefault').addEventListener('click', function() {
+            // Change the document title
+            document.title = "Horse | Definition, Breeds, Pictures, Evolution, & Facts | Britannica";
+      
+            // Change the favicon
+            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'icon';
+            link.href = 'https://www.britannica.com/favicon.png';
             document.getElementsByTagName('head')[0].appendChild(link);
           });
         </script>
