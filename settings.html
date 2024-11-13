@@ -75,6 +75,18 @@
             link.href = 'https://www.britannica.com/favicon.png';
             document.getElementsByTagName('head')[0].appendChild(link);
           });
+
+          document.getElementById('lookClassroom').addEventListener('click', function() {
+            // Change the document title
+            document.title = "Home";
+      
+            // Change the favicon
+            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'icon';
+            link.href = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/2372px-Google_Classroom_Logo.svg.png';
+            document.getElementsByTagName('head')[0].appendChild(link);
+          });
         </script>
   </body>
 </html>
