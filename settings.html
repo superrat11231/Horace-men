@@ -36,8 +36,8 @@
     <p>Website Look</p>
     <hr>
     <div>
-        <button id="lookClever">Look Clever</button>
-
+        <button id="lookClever">Clever</button>
+        <button id="lookCanvas">Canvas</button>
         <script>
           document.getElementById('lookClever').addEventListener('click', function() {
             // Change the document title
@@ -48,6 +48,18 @@
             link.type = 'image/x-icon';
             link.rel = 'icon';
             link.href = 'https://assets.clever.com/oauth/62839f373c357da633e3bc67fdb79e440d9d4261/favicon.ico?1';
+            document.getElementsByTagName('head')[0].appendChild(link);
+          });
+
+          document.getElementById('lookCanvas').addEventListener('click', function() {
+            // Change the document title
+            document.title = "Dashboard";
+      
+            // Change the favicon
+            var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            link.type = 'image/x-icon';
+            link.rel = 'icon';
+            link.href = 'https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico';
             document.getElementsByTagName('head')[0].appendChild(link);
           });
         </script>
