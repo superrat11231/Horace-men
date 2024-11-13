@@ -1,18 +1,17 @@
 {
   "dependencies": {
     "express": "^4.19.2",
-    "nc": "^1.0.3",
     "netcat": "^1.5.0",
     "node.js": "^0.0.1-security"
   },
   "name": "unblockedgames",
-  "description": "Another unblocked games website. Though this one looks like it was copied straight from tag-2, I hand coded the styles and files (I only took the games from other websites). I sometimes change the address and name to counter getting blocked by Cisco.",
+  "description": "Another unblocked games website. Though this one looks like it was copied straight from tag-2, I hand coded the styles and files (I only took the games from other websites). I sometimes change the address and name to counter getting blocked by Go Gaurdian.",
   "version": "1.2.8",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Kaden S.",
-  "license": "ISC"
+  "author": "ShragSir",
+  "license": "none"
 }
