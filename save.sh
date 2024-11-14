@@ -71,8 +71,9 @@ clear
 echo "Saving...
                                                       ___"
 sleep 0.8
+clear
 
-echo "Succesfully saved!
+echo "Saved proggress
                                                       ___"
 sleep 2
 clear
