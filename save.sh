@@ -10,27 +10,27 @@ git pull origin main
 
 clear
 
-echo "              -"
+echo "                        -"
 sleep 0.3
 clear
 
-echo "              --"
+echo "                        --"
 sleep 0.3
 clear
 
-echo "              ---"
+echo "                        ---"
 sleep 0.3
 clear
 
-echo "              -"
+echo "                        -"
 sleep 0.3
 clear
 
-echo "              --"
+echo "                        --"
 sleep 0.3
 clear
 
-echo "              ---"
+echo "                        ---"
 sleep 0.8
 clear
 
