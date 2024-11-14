@@ -56,7 +56,6 @@
       function updateLook(style) {
         document.title = lookStyles[style].title;
 
-        // Update the favicon
         const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
         link.type = 'image/x-icon';
         link.rel = 'icon';

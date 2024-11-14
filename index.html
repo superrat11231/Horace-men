@@ -19,6 +19,44 @@
                 alert("For the best experience, please use Google Chrome.");
             }
         } */
+
+        const lookStyles = {
+        "lookClever": {
+          title: "Clever | Portal",
+          favicon: "https://assets.clever.com/oauth/62839f373c357da633e3bc67fdb79e440d9d4261/favicon.ico?1"
+        },
+        "lookCanvas": {
+          title: "Dashboard",
+          favicon: "https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico"
+        },
+        "lookDefault": {
+          title: "Horse | Definition, Breeds, Pictures, Evolution, & Facts | Britannica",
+          favicon: "https://www.britannica.com/favicon.png"
+        },
+        "lookClassroom": {
+          title: "Home",
+          favicon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Google_Classroom_Logo.svg/2372px-Google_Classroom_Logo.svg.png"
+        },
+        "lookDocs": {
+          title: "Horse Essay - Google Docs",
+          favicon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUE7BRm2ME_-ppQcgRXQ2EqFh7S9sozIw5g&s"
+        }
+      };
+      function updateLook(style) {
+        document.title = lookStyles[style].title;
+
+        const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+        link.type = 'image/x-icon';
+        link.rel = 'icon';
+        link.href = lookStyles[style].favicon;
+        document.getElementsByTagName('head')[0].appendChild(link);
+      }
+
+      document.getElementById('lookClever').addEventListener('click', () => updateLook('lookClever'));
+      document.getElementById('lookCanvas').addEventListener('click', () => updateLook('lookCanvas'));
+      document.getElementById('lookDefault').addEventListener('click', () => updateLook('lookDefault'));
+      document.getElementById('lookClassroom').addEventListener('click', () => updateLook('lookClassroom'));
+      document.getElementById('lookDocs').addEventListener('click', () => updateLook('lookDocs'));
       
         function quick_switch() {
             window.location.href = "https://drive.google.com/drive/home";
