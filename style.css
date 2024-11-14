@@ -176,7 +176,13 @@ footer {
 .search-btn {
   position: absolute;
   display: flex;
-  left: 1300px;
+  left: 1230px;
+}
+
+.cloak-btn {
+  position: absolute;
+  display: flex;
+  left: 1200;
 }
 
 .logo {
