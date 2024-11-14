@@ -39,17 +39,17 @@ sleep 0.2
 clear
 
 echo "Saving...
-                                                      _-___"
+                                                      _-____"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      __-__"
+                                                      __-___"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      ___-__"
+                                                      ___-___"
 sleep 0.2
 clear
 
