@@ -1,97 +1,71 @@
 #!/bin/bash
 
-cho "Saving...
+echo "
                                                       _______"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       -______"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       _-_____"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       __-____"
 sleep 0.2
 clear
 
-git add .
-git commit -m "Quick-Update (from Replit)"
-git push origin main
-git pull origin main
-clear
-
-echo "Saving...
-                                                      _______"
-sleep 0.2
-clear
-
-echo "Saving...
-                                                      -______"
-sleep 0.2
-clear
-
-echo "Saving...
-                                                      _-_____"
-sleep 0.2
-clear
-
-echo "Saving...
-                                                      __-____"
-sleep 0.2
-clear
-
-echo "Saving...
+echo "
                                                       ___-___"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       ____-__"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       _____-_"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       ______-"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       _______"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       -______"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       _-_____"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       __-____"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       ___-___"
 sleep 0.2
 clear
 
-echo "Saving...
+echo "
                                                       ____-__"
 sleep 0.2
 clear
