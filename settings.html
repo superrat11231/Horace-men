@@ -16,7 +16,6 @@
       <div class="category">
         <a href="category/runner/index.html">Runner</a>
         <a href="category/stickman/index.html">Stickman</a>
-        <!-- Add other links here if necessary -->
       </div>
       <div class="search-btn">
         <a href="search/new.html"><h2>🔎</h2></a>
@@ -31,9 +30,7 @@
         <button id="lookClassroom">Google Classroom</button>
         <button id="lookDocs">Google Docs</button>
     </div>
-
     <script>
-      // Define a configuration object for all the look styles
       const lookStyles = {
         "lookClever": {
           title: "Clever | Portal",
@@ -56,8 +53,6 @@
           favicon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeUE7BRm2ME_-ppQcgRXQ2EqFh7S9sozIw5g&s"
         }
       };
-
-      // Function to update the title and favicon
       function updateLook(style) {
         document.title = lookStyles[style].title;
 
@@ -69,7 +64,6 @@
         document.getElementsByTagName('head')[0].appendChild(link);
       }
 
-      // Add event listeners to buttons
       document.getElementById('lookClever').addEventListener('click', () => updateLook('lookClever'));
       document.getElementById('lookCanvas').addEventListener('click', () => updateLook('lookCanvas'));
       document.getElementById('lookDefault').addEventListener('click', () => updateLook('lookDefault'));
