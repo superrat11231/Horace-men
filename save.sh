@@ -2,19 +2,20 @@
 
 echo "Saving...
                                                       ___"
-sleep 1
+sleep 0.3
+clear
 
-echo "
+echo "Saving...
                                                       -__"
 sleep 0.3
 clear
 
-echo "
+echo "Saving...
                                                       _-_"
 sleep 0.3
 clear
 
-echo "
+echo "Saving...
                                                       __-"
 sleep 0.3
 clear
