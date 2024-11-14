@@ -31,6 +31,11 @@ sleep 0.3
 clear
 
 echo "
+                                                      ___"
+sleep 0.3
+clear
+
+echo "
                                                       -__"
 sleep 0.3
 clear
