@@ -3,22 +3,22 @@
 sleep 0.4
 clear
 echo "Saving...
-                                                      _____"
+                                                      _______"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      -____"
+                                                      -______"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      _-___"
+                                                      _-_____"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      __-__"
+                                                      __-____"
 sleep 0.2
 clear
 
@@ -55,6 +55,11 @@ clear
 
 echo "Saving...
                                                       ____-__"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      _____-_"
 sleep 0.2
 clear
 
@@ -100,11 +105,6 @@ clear
 
 echo "Saving...
                                                       ______-"
-sleep 0.2
-clear
-
-echo "Saving...
-                                                      _______"
 sleep 0.2
 clear
 
