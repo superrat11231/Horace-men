@@ -11,17 +11,7 @@ git pull origin main
 clear
 
 echo "
-                                                      -__"
-sleep 0.3
-clear
-
-echo "
-                                                      _-_"
-sleep 0.3
-clear
-
-echo "
-                                                      __-"
+                                                      ___"
 sleep 0.3
 clear
 
@@ -37,6 +27,26 @@ clear
 
 echo "
                                                       __-"
+sleep 0.3
+clear
+
+echo "
+                                                      -__"
+sleep 0.3
+clear
+
+echo "
+                                                      _-_"
+sleep 0.3
+clear
+
+echo "
+                                                      __-"
+sleep 0.3
+clear
+
+echo "
+                                                      ___"
 sleep 0.8
 clear
 
