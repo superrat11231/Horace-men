@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sleep 0.4
 clear
 echo "Saving...
                                                       ___"
