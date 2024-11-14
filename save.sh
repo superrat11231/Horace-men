@@ -29,22 +29,22 @@ git pull origin main
 clear
 
 echo "Saving...
-                                                      _____"
+                                                      _______"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      -____"
+                                                      -______"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      _-____"
+                                                      _-_____"
 sleep 0.2
 clear
 
 echo "Saving...
-                                                      __-___"
+                                                      __-____"
 sleep 0.2
 clear
 
@@ -54,7 +54,7 @@ sleep 0.2
 clear
 
 echo "Saving...
-                                                      ____-_"
+                                                      ____-__"
 sleep 0.2
 clear
 
