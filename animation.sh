@@ -200,22 +200,22 @@ sleep 0.2
 clear
 
 echo "
-                                                      ___.____"
+                                                      .__.____"
 sleep 0.2
 clear
 
 echo "
-                                                      ____.___"
+                                                      __.__.___"
 sleep 0.2
 clear
 
 echo "
-                                                      _____.__"
+                                                      ____..__"
 sleep 0.2
 clear
 
 echo "
-                                                      _______._"
+                                                      _______.."
 sleep 0.2
 clear
 
@@ -240,7 +240,7 @@ sleep 0.2
 clear
 
 echo "
-                                                      ____.___"
+                                                      ____.__"
 sleep 0.2
 clear
 
