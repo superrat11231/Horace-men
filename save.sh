@@ -73,7 +73,7 @@ echo "Saving...
 sleep 0.8
 clear
 
-echo "Saved proggress
+echo "Saved to Github
                                                       ___"
 sleep 2
 clear
