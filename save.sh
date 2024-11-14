@@ -109,7 +109,7 @@ sleep 0.2
 clear
 
 echo "Saving...
-                                                      -______"
+                                                      _______"
 sleep 0.8
 clear
 
