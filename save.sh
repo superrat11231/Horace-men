@@ -12,47 +12,47 @@ clear
 
 echo "
                                                       ___"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       -__"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       _-_"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       __-"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       ___"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       -__"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       _-_"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       __-"
-sleep 0.3
+sleep 0.2
 clear
 
 echo "
                                                       ___"
-sleep 0.8
+sleep 0.7
 clear
 
 echo "Done!"
