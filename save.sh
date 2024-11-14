@@ -3,23 +3,23 @@
 sleep 0.4
 clear
 echo "Saving...
-                                                      ___"
-sleep 0.3
+                                                      _____"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      -__"
-sleep 0.3
+                                                      -____"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      _-_"
-sleep 0.3
+                                                      _-___"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      __-"
-sleep 0.3
+                                                      __-__"
+sleep 0.2
 clear
 
 git add .
@@ -29,52 +29,92 @@ git pull origin main
 clear
 
 echo "Saving...
-                                                      ___"
-sleep 0.3
+                                                      _____"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      -__"
-sleep 0.3
+                                                      -____"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      _-_"
-sleep 0.3
+                                                      _-___"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      __-"
-sleep 0.3
+                                                      __-__"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      ___"
-sleep 0.3
+                                                      ___-__"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      -__"
-sleep 0.3
+                                                      ____-_"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      _-_"
-sleep 0.3
+                                                      ______-"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      __-"
-sleep 0.3
+                                                      _______"
+sleep 0.2
 clear
 
 echo "Saving...
-                                                      ___"
+                                                      -______"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      _-_____"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      __-____"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      ___-___"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      ____-__"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      _____-_"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      ______-"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      _______"
+sleep 0.2
+clear
+
+echo "Saving...
+                                                      -______"
 sleep 0.8
 clear
 
 echo "Saved to Github
-                                                      ___"
+                                                      _______"
 sleep 2
 clear
 
