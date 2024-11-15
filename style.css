@@ -1,13 +1,11 @@
 body {
-  /*background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIepEkJiK90XL3olE5b1YM2ABEU2Tn4yVUpx9_pmN-ExvyEUvu');*/
-  background-color: purple;
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIepEkJiK90XL3olE5b1YM2ABEU2Tn4yVUpx9_pmN-ExvyEUvu');
   background-size: cover;
   font-family: sans-serif;
 }
 
 h1 {
-  /*color: rgb(220,220,220);*/
-  color: purple;
+  color: rgb(220,220,220);
   font-size: 26px;
   font-family: sans-serif;
   margin-top: 16px;
@@ -22,8 +20,7 @@ h2:a {
 }
 
 h2 {
-  /*color: rgb(220,220,220);*/
-  color: purple;
+  color: rgb(220,220,220);
   font-size: 20px;
   font-family: sans-serif;
 }
@@ -33,9 +30,7 @@ h2 {
   gap: 40px;
   padding-left: 45px;
   padding-right: 300px;
-  /*background-color: rgb(27, 4, 42);*/
-  color: purple;
-  background-color: purple;
+  background-color: rgb(27, 4, 42);
   border-radius: 20px;
   padding-top: 2px;
 }
@@ -46,8 +41,6 @@ img {
   min-height: 210px;
   transition: transform 1s, filter 3s, all 2s;
   filter: brightness(85%);
-  background-color: purple;
-  filter: hue-rotate(270deg) saturate(1.5);
 }
 
 img:hover{
@@ -55,7 +48,7 @@ img:hover{
   transition: transform 1s, filter 1s, all 1s;
   filter: brightness(100%);
   filter: invert(100%);
-  box-shadow: 7px 7px 4px /*rgba(27, 4, 40, 0.5)*/ purple;
+  box-shadow: 7px 7px 4px rgba(27, 4, 40, 0.5);
 }
 
 img:active {
@@ -78,7 +71,6 @@ p {
   text-shadow: 0px 0px 0.5px rgb(200,200,200);
   padding-left: 15px;
   margin-left: 25px;
-  color: purple;
 }
 
 .game-iframe {
