@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "emscripten": "^0.0.2-beta",
     "express": "^4.19.2",
     "netcat": "^1.5.0",
     "node.js": "^0.0.1-security"
@@ -11,7 +12,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["games", "unblockedgames", "unblocked"],
+  "keywords": [
+    "games",
+    "unblockedgames",
+    "unblocked"
+  ],
   "author": "ShragSir",
   "license": "none"
 }
