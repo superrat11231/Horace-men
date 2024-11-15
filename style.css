@@ -47,7 +47,6 @@ img:hover{
   transform: translate(0, -2.5px);
   transition: transform 1s, filter 1s, all 1s;
   filter: brightness(100%);
-  filter: invert(100%);
   box-shadow: 7px 7px 4px rgba(27, 4, 40, 0.5);
 }
 
