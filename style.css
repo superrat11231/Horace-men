@@ -1,11 +1,13 @@
 body {
-  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIepEkJiK90XL3olE5b1YM2ABEU2Tn4yVUpx9_pmN-ExvyEUvu');
+  /*background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIepEkJiK90XL3olE5b1YM2ABEU2Tn4yVUpx9_pmN-ExvyEUvu');*/
+  background-color: purple;
   background-size: cover;
   font-family: sans-serif;
 }
 
 h1 {
-  color: rgb(220,220,220);
+  /*color: rgb(220,220,220);*/
+  color: purple;
   font-size: 26px;
   font-family: sans-serif;
   margin-top: 16px;
@@ -20,7 +22,8 @@ h2:a {
 }
 
 h2 {
-  color: rgb(220,220,220);
+  /*color: rgb(220,220,220);*/
+  color: purple;
   font-size: 20px;
   font-family: sans-serif;
 }
@@ -30,7 +33,9 @@ h2 {
   gap: 40px;
   padding-left: 45px;
   padding-right: 300px;
-  background-color: rgb(27, 4, 42);
+  /*background-color: rgb(27, 4, 42);*/
+  color: purple;
+  background-color: purple;
   border-radius: 20px;
   padding-top: 2px;
 }
@@ -41,13 +46,15 @@ img {
   min-height: 210px;
   transition: transform 1s, filter 3s, all 2s;
   filter: brightness(85%);
+  background-color: purple;
 }
 
 img:hover{
   transform: translate(0, -2.5px);
   transition: transform 1s, filter 1s, all 1s;
   filter: brightness(100%);
-  box-shadow: 7px 7px 4px rgba(27, 4, 40, 0.5);
+  filter: inver(100%);
+  box-shadow: 7px 7px 4px /*rgba(27, 4, 40, 0.5)*/ purple;
 }
 
 img:active {
@@ -198,6 +205,9 @@ footer {
 .main-title {
   display: flex;
   gap: 20px;
+/* Color day */
+  color: purple;
+/* Color day */
 }
 
 .dropbtn {
