@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SNES Emulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="special.css">
+    <link rel="icon" type="image/x-icon" href="https://www.britannica.com/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Bungee&family=Comfortaa:wght@400;600&family=Fredoka+One&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Unblocked SNES Games</h1>
+    </div>
+    <div class="game-container">
+      <canvas id="snes-canvas" width="900" height="600"></canvas>
+      <h4>Play Your SNES Game</h4>
+      <div class="fullscreen-btn-container">
+        <button onclick="open_fullscreen()" class="btn btn-capsule">
+          <i class="bi bi-arrows-fullscreen b-icon"></i> Fullscreen
+        </button>
+      </div>
+    </div>
+
+    <script src="js/snes.js"></script>
+    <script>
+      // Initialize the SNES emulator
+      window.onload = function() {
+        var emulator = new SNES();
+        emulator.loadROM("go/emulated/earthboundsnes.sfc"); // Replace with your actual file path
+        emulator.start();
+        
+        // Attach the emulator to the canvas
+        var canvas = document.getElementById('snes-canvas');
+        emulator.setCanvas(canvas);
+      };
+
+      // Fullscreen function
+      function open_fullscreen() {
+        var elem = document.getElementById('snes-canvas');
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) { /* Firefox */
+          elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE/Edge */
+          elem.msRequestFullscreen();
+        }
+      }
+    </script>
+  </body>
+</html>
