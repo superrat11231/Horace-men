@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="special.css">
   </head>
   <body>
-    <label for="urlInput">Enter URL: </label>
+    <label for="urlInput">Enter URL to cloak: </label>
     <input type="text" id="urlInput" placeholder="Enter the URL here">
     <button onclick="cloakSite()">Go!</button>
 
@@ -20,8 +20,12 @@
 
         // If the input is empty or invalid, alert the user
         if (!url || !isValidUrl(url)) {
-            alert("Please enter a valid URL.");
+            alert("Please enter a valid URL. (Hint: URL must start with 'https://'.)");
             return;
+        }
+
+        if (url === "https://pornhub.com" || url === "https://xxxvideos.com" || url === "https://") {
+            alert("!The developer has blocked these websites, either because they don't work, or because you don't need to use them!")
         }
 
         // Open a new window
