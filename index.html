@@ -12,9 +12,17 @@
     <link rel="manifest" href="manifest.json">
     <script>
 
-        var renvtionStatus = 2; 
-        /*2 is BIG renovations, 1 is moderate, and 0 is none (to alert of).*/       
+        var renvtionStatus = 2;
 
+        /*2 is BIG renovations, 1 is moderate, and 0 is none (to alert of).*/   
+
+        if ( renvtionStatus === 2 ) {
+          alert('WARNING: The website is going oer massive renovations, making most of the features unusable.');
+        } else if ( renvtionStatus === 1 ) {
+          alert('Notice: The website is going over moderate renovations, and some features may not work properly.');
+        } else if ( renvtionStatus === 0 ) {
+        }
+        
         /* function detectBrowser() {
             var userAgent = navigator.userAgent;
             var isChrome = /Chrome/.test(userAgent) && /Google Inc/.test(navigator.vendor);
@@ -95,13 +103,6 @@
         };
 
         // Hey buddy, there's alot of easter eggs in here, so don't spoil anything for anybody!
-        
-        if ( renvtionStatus === 2 ) {
-          alert('WARNING: The website is going oer massive renovations, making most of the features unusable.');
-        } else if ( renvtionStatus === 1 ) {
-          alert('Notice: The website is going over moderate renovations, and some features may not work properly.');
-        } else if ( renvtionStatus === 0 ) {
-        }
     </script>
     <script src="script.js"></script>
   </head>
