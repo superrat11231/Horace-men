@@ -21,5 +21,5 @@ I would be very greatful if someone took the time to help me with this project. 
 Email: shrashep@outlook.com
 
 ## current version: 1.3.5
-**Added:**
-This version has easter eggs hidden in the code, Happy Wheels and Hole.io added, and a little bit of debugging.
+**What I'm working on:**
+I'm going to try to add games directly to the website, rather that using games from other sites so that the website can work a bit more over more restrictions.
