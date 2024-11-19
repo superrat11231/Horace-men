@@ -16,8 +16,7 @@ Another unblocked games website. Though this one looks like it was copied straig
 Just go to the current link and play whatever you want. If you want to fork, please give me credit. I worked really hard on this.
 
 ## Contributing:
-I would be very greatful if someone took the time to help me with this project. I've been working on this for WAY too long by myself. All you need to do is fork the repository, add any edits you want, then send me a pull requst comparing your fork and my repo.
-
+I would be very greatful if someone took the time to help me with this project. I've been working on this for WAY too long by myself. BTW, I would love an 'unblocker' proxy. I don't really understand backend and server stuff.
 ## How to contact me:
 Email: shrashep@outlook.com
 
