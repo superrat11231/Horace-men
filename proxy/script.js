@@ -3,13 +3,10 @@ document.getElementById('checkBtn').addEventListener('click', () => {
     const feedback = document.getElementById('feedback');
 
     if (!input) {
-        feedback.textContent = "Please enter a HorseyGold ID.";
-        feedback.style.color = "red";
+        alert("Hmmm... that doesn't seem to be a valid ID. Check with the developer for more info.")
     } else if (input === '1124') {
-        feedback.textContent = "HorseyGold ID is valid!";
-        feedback.style.color = "green";
+        alert("It works")
     } else {
-        feedback.textContent = "Invalid HorseyGold ID. Only letters and numbers are allowed.";
-        feedback.style.color = "red";
+        alert("Hmmm... that doesn't seem to be a valid ID. Check with the developer for more info.")
     }
 });
