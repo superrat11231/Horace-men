@@ -1,12 +1,11 @@
 document.getElementById('checkBtn').addEventListener('click', () => {
     const input = document.getElementById('hgid').value.trim();
-    const feedback = document.getElementById('feedback');
 
     if (!input) {
-        alert("Hmmm... that doesn't seem to be a valid ID. Check with the developer for more info.")
+        alert("Hmmm... that doesn't seem to be a valid ID. Check with the developer for more info.");
     } else if (input === '1124') {
-        alert("It works")
+        alert("It works");
     } else {
-        alert("Hmmm... that doesn't seem to be a valid ID. Check with the developer for more info.")
+        alert("Hmmm... that doesn't seem to be a valid ID. Check with the developer for more info.");
     }
 });
