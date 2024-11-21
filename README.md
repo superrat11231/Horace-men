@@ -24,4 +24,4 @@ I would be very greatful if someone took the time to help me with this project.
 
 ## Current Version: 1.3.5
 **What I'm working on:**
-I'm gonna work on the proxy. Thats it.
+I'm gonna take a break for a little bit.
