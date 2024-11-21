@@ -22,6 +22,6 @@ I would be very greatful if someone took the time to help me with this project. 
 * The Horsey Website Discord server: https://discord.gg/JSbQp9SkAS
 
 
-## current version: 1.3.5
+## Current Version: 1.3.5
 **What I'm working on:**
-I'm going to try to add games directly to the website, rather that using games from other sites so that the website can work a bit more over more restrictions.
+I'm gonna work on the proxy. Thats it.
