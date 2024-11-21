@@ -16,7 +16,7 @@ Another unblocked games website. Though this one looks like it was copied straig
 Just go to the current link and play whatever you want. If you want to fork, please give me credit. I worked really hard on this.
 
 ## Contributing:
-I would be very greatful if someone took the time to help me with this project. I've been working on this for WAY too long by myself. BTW, I would love an 'unblocker' proxy. I don't really understand backend and server stuff.
+I would be very greatful if someone took the time to help me with this project.
 ## Links:
 * My personal Email: shrashep@outlook.com
 * The Horsey Website Discord server: https://discord.gg/JSbQp9SkAS
