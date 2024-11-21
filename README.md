@@ -17,8 +17,10 @@ Just go to the current link and play whatever you want. If you want to fork, ple
 
 ## Contributing:
 I would be very greatful if someone took the time to help me with this project. I've been working on this for WAY too long by myself. BTW, I would love an 'unblocker' proxy. I don't really understand backend and server stuff.
-## How to contact me:
-Email: shrashep@outlook.com
+## Links:
+* My personal Email: shrashep@outlook.com
+* The Horsey Website Discord server: https://discord.gg/JSbQp9SkAS
+
 
 ## current version: 1.3.5
 **What I'm working on:**
