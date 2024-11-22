@@ -19,7 +19,6 @@ Just go to the current link and play whatever you want. If you want to fork, ple
 I would be very greatful if someone took the time to help me with this project.
 ## Links:
 * My personal Email: shrashep@outlook.com
-* The Horsey Website Discord server: https://discord.gg/JSbQp9SkAS
 
 
 ## Current Version: 1.3.5
