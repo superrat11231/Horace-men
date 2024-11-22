@@ -23,4 +23,4 @@ I would be very greatful if someone took the time to help me with this project.
 
 ## Current Version: 1.3.5
 **What I'm working on:**
-I'm gonna take a break for a little bit.
+I'm gonna take a break from the website a little bit. Maybee code something else.
