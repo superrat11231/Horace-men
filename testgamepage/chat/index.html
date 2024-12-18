@@ -5,25 +5,27 @@
 </head>
 <body>
     <h1>Netcat Chat</h1>
-    <div id="chat"></div>
-    <input id="message" type="text" placeholder="Type your message here">
+    <div id="chat" style="border: 1px solid black; height: 300px; overflow-y: scroll; padding: 10px;"></div>
+    <input id="message" type="text" placeholder="Type your message here" style="width: 80%;">
     <button onclick="sendMessage()">Send</button>
 
     <script>
+        // Periodically fetch new messages
+        setInterval(async () => {
+            const response = await fetch('http://localhost:8000/chat.log'); // Change to your backend URL
+            const messages = await response.text();
+            document.getElementById('chat').innerText = messages;
+        }, 1000);
+
+        // Send a new message
         async function sendMessage() {
             const message = document.getElementById('message').value;
-            document.getElementById('message').value = '';
-            
-            // Send the message to the Bash script
-            await fetch(`/send`, {
+            document.getElementById('message').value = ''; // Clear input
+            await fetch('http://localhost:8000/send_message.sh', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message })
             });
-
-            // Update the chat log
-            const chatDiv = document.getElementById('chat');
-            chatDiv.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
         }
     </script>
 </body>
