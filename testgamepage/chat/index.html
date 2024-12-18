@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netcat Chat</title>
+</head>
+<body>
+    <h1>Netcat Chat</h1>
+    <div id="chat"></div>
+    <input id="message" type="text" placeholder="Type your message here">
+    <button onclick="sendMessage()">Send</button>
 
+    <script>
+        async function sendMessage() {
+            const message = document.getElementById('message').value;
+            document.getElementById('message').value = '';
+            
+            // Send the message to the Bash script
+            await fetch(`/send`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message })
+            });
+
+            // Update the chat log
+            const chatDiv = document.getElementById('chat');
+            chatDiv.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
+        }
+    </script>
+</body>
+</html>
